@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "フラスコ") {
-        result.textContent = "おめでとう";
+        result.textContent = "出席番号7番";
     } else {
         result.textContent = "残念...";
     }
