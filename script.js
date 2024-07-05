@@ -4,6 +4,8 @@ function checkAnswer() {
 
     if (answerInput === "フラスコ") {
         result.textContent = "出席番号7番";
+    } else if (answerInput === "ふらすこ") {
+        result.textContent = "主席番号7番";
     } else {
         result.textContent = "残念...";
     }
